@@ -1,0 +1,17 @@
+@mixin footerTitle ($fs: $fs-c2,$fw: $fw-bold,$color: $text-color-c0) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+
+@mixin footerItem ($fs: $fs-c1,$fw: $fw-semibold,$color: $text-color-c0) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+
+@mixin footerButtonA ($fs: $fs-c1,$fw: $fw-regular,$color: $text-color-c2) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
