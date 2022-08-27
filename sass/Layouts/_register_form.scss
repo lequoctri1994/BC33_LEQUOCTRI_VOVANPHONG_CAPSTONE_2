@@ -1,0 +1,61 @@
+.register {
+    .container {
+        .register-title {
+            h3 {
+    
+            }
+        }
+        .register-content {
+            .register-form {
+                .register-form-left {
+                    .register-form-left-email {
+                        input {
+    
+                        }
+                    }
+                    .register-form-left-password {
+                        input {
+    
+                        }
+                    }
+                    .register-form-left-passwordConfirm {
+                        input {
+    
+                        }
+                    }
+                }
+                .register-form-right {
+                    .register-form-right-name {
+                        input {
+    
+                        }
+                    }
+                    .register-form-right-phone {
+                        input {
+    
+                        }
+                    }
+                    .register-form-right-gender {
+                        .title {
+                            span {
+    
+                            }
+                        }
+                        .radio {
+                            input {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .register-button {
+                .button {
+                    button {
+                    
+                    }
+                }
+            }
+        }
+    }
+}
