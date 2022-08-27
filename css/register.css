@@ -9,6 +9,102 @@
   max-width: 1280px;
 }
 
+.register .container .register-title h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.register .container .register-content .register-form {
+  display: flex;
+  justify-content: space-around;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-email input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-email input:focus {
+  outline: none;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-password input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-password input:focus {
+  outline: none;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-passwordConfirm input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-passwordConfirm input:focus {
+  outline: none;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-name input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-name input:focus {
+  outline: none;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-phone input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-phone input:focus {
+  outline: none;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-gender {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+  padding-top: 47px;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-gender .radio {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.register .container .register-content .register-form .register-form-right .register-form-right-gender .radio input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  border: none;
+}
+.register .container .register-content .register-form .register-form-right .button {
+  width: 50%;
+  padding: 30px 0;
+}
+.register .container .register-content .register-form .register-form-right .button button {
+  width: 100%;
+  padding: 7px 0;
+  background-color: #AE18E2;
+  border: none;
+  color: #ffffff;
+}
+
 .footer .footer-background-top {
   background-color: #f8f8f8;
 }

@@ -3,7 +3,8 @@ $fs-c1: 13px;
 $fs-c2: 16px;
 $fs-c3: 20px;
 $fs-c4: 24px;
-$fs-c5: 40px;
+$fs-c5: 30px;
+$fs-c6: 40px;
 
 //font-weight
 $fw-light: 300;
@@ -19,3 +20,8 @@ $bg-color-c3: #AE18E2;
 $text-color-c0: #000000;
 $text-color-c1:#CBC9C9;
 $text-color-c2: #d77a76;
+$text-color-c3: #ffffff;
+
+//boder
+$bd-c0: none;
+$bdBot-c1: 1px solid $bg-color-c3;

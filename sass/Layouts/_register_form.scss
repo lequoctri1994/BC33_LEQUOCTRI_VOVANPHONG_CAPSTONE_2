@@ -2,60 +2,108 @@
     .container {
         .register-title {
             h3 {
-    
+                text-align: center;
+                font-size: $fs-c5;
+                font-weight: $fw-semibold;
             }
         }
         .register-content {
             .register-form {
+                display: flex;
+                justify-content: space-around;
                 .register-form-left {
                     .register-form-left-email {
                         input {
-    
+                            @include registerInput();
+                            padding: 15px 0;
+                            border-bottom: 5px solid $bg-color-c3;
+                            &:focus {
+                                outline: none;
+                              }
+                            
                         }
                     }
                     .register-form-left-password {
                         input {
-    
+                            @include registerInput();
+                            padding: 15px 0;
+                            border-bottom: 5px solid $bg-color-c3;
+
+                            &:focus {
+                                outline: none;
+                              }
                         }
                     }
                     .register-form-left-passwordConfirm {
                         input {
-    
+                            @include registerInput();
+                            padding: 15px 0;
+                            border-bottom: 5px solid $bg-color-c3;
+
+                            &:focus {
+                                outline: none;
+                              }
                         }
                     }
                 }
                 .register-form-right {
                     .register-form-right-name {
                         input {
-    
+                            @include registerInput();
+                            padding: 15px 0;
+                            border-bottom: 5px solid $bg-color-c3;
+
+                            &:focus {
+                                outline: none;
+                              }
                         }
                     }
                     .register-form-right-phone {
                         input {
-    
+                            @include registerInput();
+                            padding: 15px 0;
+                            border-bottom: 5px solid $bg-color-c3;
+
+                            &:focus {
+                                outline: none;
+                              }
                         }
                     }
                     .register-form-right-gender {
+                        display: flex;
+                        justify-content: space-between;
+                        @include registerInput();
+                        padding-top: 47px;
+
                         .title {
                             span {
     
                             }
                         }
                         .radio {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 60%;
                             input {
-                                
+                                @include registerInput();
                             }
                         }
                     }
-                }
-            }
-            .register-button {
-                .button {
-                    button {
+                        .button {
+                            width: 50%;
+                            padding: 30px 0;
+                            button {
+                            width: 100%;
+                            padding: 7px 0;
+                            background-color: $bg-color-c3;
+                            border: none;
+                            color: $text-color-c3;
+                            }
+                        }
                     
-                    }
                 }
             }
+            
         }
     }
 }

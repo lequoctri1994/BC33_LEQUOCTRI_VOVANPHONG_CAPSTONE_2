@@ -15,3 +15,10 @@
     font-weight: $fw;
     color: $color;
 }
+
+@mixin registerInput ($fs: $fs-c4, $fw: $fw-semibold, $color: $text-color-c0, $bd: $bd-c0) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    border: $bd;
+}
