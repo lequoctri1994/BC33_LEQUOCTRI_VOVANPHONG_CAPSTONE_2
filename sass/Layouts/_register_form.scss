@@ -1,4 +1,5 @@
 .register {
+    background-color: $bg-color-c4;
     .container {
         .register-title {
             h3 {
@@ -12,11 +13,13 @@
                 display: flex;
                 justify-content: space-around;
                 .register-form-left {
+                    width: 40%;
                     .register-form-left-email {
                         input {
                             @include registerInput();
                             padding: 15px 0;
                             border-bottom: 5px solid $bg-color-c3;
+                            width: 100%;
                             &:focus {
                                 outline: none;
                               }
@@ -28,6 +31,7 @@
                             @include registerInput();
                             padding: 15px 0;
                             border-bottom: 5px solid $bg-color-c3;
+                            width: 100%;
 
                             &:focus {
                                 outline: none;
@@ -39,6 +43,7 @@
                             @include registerInput();
                             padding: 15px 0;
                             border-bottom: 5px solid $bg-color-c3;
+                            width: 100%;
 
                             &:focus {
                                 outline: none;
@@ -47,11 +52,13 @@
                     }
                 }
                 .register-form-right {
+                    width: 40%;
                     .register-form-right-name {
                         input {
                             @include registerInput();
                             padding: 15px 0;
                             border-bottom: 5px solid $bg-color-c3;
+                            width: 100%;
 
                             &:focus {
                                 outline: none;
@@ -63,6 +70,7 @@
                             @include registerInput();
                             padding: 15px 0;
                             border-bottom: 5px solid $bg-color-c3;
+                            width: 100%;
 
                             &:focus {
                                 outline: none;
@@ -74,7 +82,7 @@
                         justify-content: space-between;
                         @include registerInput();
                         padding-top: 47px;
-
+                        align-items: center;
                         .title {
                             span {
     
@@ -83,7 +91,7 @@
                         .radio {
                             display: flex;
                             justify-content: space-between;
-                            width: 60%;
+                            width: 50%;
                             input {
                                 @include registerInput();
                             }

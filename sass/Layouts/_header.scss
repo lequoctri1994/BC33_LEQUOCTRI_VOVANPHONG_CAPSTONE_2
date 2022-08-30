@@ -1,0 +1,97 @@
+.header {
+  .header-top {
+    background-color: $text-color-c0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 0 30px;
+    .header-top-logo {
+      a {
+        img {
+          margin-top: 7px;
+        }
+      }
+    }
+    .header-top-user {
+      display: flex;
+      justify-content: space-around;
+      width: 13%;
+      color: $text-color-c3;
+      align-items: center;
+      .header-top-user-cart {
+        a {
+          text-decoration: none;
+          color: $text-color-c3;
+          align-items: center;
+          img {
+            width: 43%;
+            margin-bottom: 13px;
+          }
+          span {
+            font-size: $fs-c5;
+            font-weight: $fw-light;
+          }
+        }
+      }
+      .header-top-user-login {
+        margin-right: 25px;
+        margin-bottom: 5px;
+        a {
+          text-decoration: none;
+          color: $text-color-c3;
+          span {
+            font-size: $fs-c3;
+            font-weight: $fw-light;
+          }
+        }
+      }
+      .header-top-user-register {
+        margin-bottom: 5px;
+        a {
+          text-decoration: none;
+          color: $text-color-c3;
+          span {
+            font-size: $fs-c3;
+            font-weight: $fw-light;
+          }
+        }
+      }
+    }
+  }
+  .header-navbar {
+    background-color: $text-color-c3;
+    padding: 5px 30px;
+    .header-navbar-nav {
+      ul {
+        display: flex;
+        list-style: none;
+        width: 30%;
+        padding: 0;
+        li {
+          margin-right: 25px;
+          a {
+            text-decoration: none;
+            color: $text-color-c0;
+            font-size: $fs-c3;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 3px;
+                background-color: $text-color-c0;
+                left: 0;
+                bottom: -5px;
+                transform: scale(0, 1);
+                transition: transform 0.3s;
+              }
+              &:hover {
+                &::before {
+                    transform: scale(1,1);
+                }
+              }
+          }
+        }
+      }
+    }
+  }
+}
