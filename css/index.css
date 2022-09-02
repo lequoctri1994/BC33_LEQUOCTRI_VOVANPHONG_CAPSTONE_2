@@ -130,6 +130,9 @@
   font-weight: 400;
   margin-bottom: 40px;
 }
+.product .container .product-content {
+  margin: auto;
+}
 .product .container .product-content .col-3 {
   display: flex;
   flex-direction: column;

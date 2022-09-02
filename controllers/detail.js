@@ -1,30 +1,36 @@
 function getProductDetail () {
     console.log('123')
     var promise = axios ({
-        url:`./detail.html?productid=${pr.id}`,
+        url:`https://shop.cyberlearn.vn/api/Product`,
         method:'GET',
-    })
+        reponseType:'JSON',
+    });
 
     promise.then(function(result){
         console.log(result);
-    })
+    });
+
+    promise.catch(function(err){
+        console.log(err);
+    });
 }
 
+function getProductDetail (arrProduct) {
+    var html = '';
+    html =+ `
+    <img src="${pr.image}" />
+    <h1>${pr.name}</h1>
+    <h2>${pr.description}</h2>
+    <span>${pr.size}</span>
+    <h2>${pr.price}</h2>
+    <button class=plus>+</button>
 
 
+    <button class=addToCart>Add to cart</button>
+    `
 
-
-
-
-
-
-
-
-
-
-
-
-
+    document.querySelector('#detailProduct').innerHTML = html;
+}
 
 function getProductAPI() {
     var promise = axios ({
@@ -40,7 +46,7 @@ function getProductAPI() {
 
     promise.catch(function(err) {
         console.log(err);
-    })
+    });
 }
 
 function renderProduct(arrProduct) {
@@ -84,6 +90,8 @@ function renderProduct(arrProduct) {
 
 window.onload = function () {
     getProductAPI();
+    getProductDetail();
+    console.log(getProductDetail())
     const urlParams = new URLSearchParams(window.location.search);
     const myParam = urlParams.get('productid');
     console.log('param',myParam);
