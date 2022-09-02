@@ -1,0 +1,36 @@
+.carousel {
+    background: url(../../img/carousel-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img {
+            a {
+                img {
+
+                }
+            }
+        }
+        .info {
+            .content {
+                h2 {
+                    font-size: $fs-c6;
+                }
+                p {
+                    font-size: $fs-c3;
+                }
+            }
+            .button {
+                button {
+                    background-color: $bg-color-c5;
+                    color: $text-color-c3;
+                    border: none;
+                    padding: 10px 25px;
+                }
+            }
+        }
+    }
+}
