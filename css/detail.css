@@ -95,6 +95,84 @@
   transform: scale(1, 1);
 }
 
+.product-detail .product-detail-content {
+  display: flex;
+  justify-content: center;
+}
+.product-detail .product-detail-content .left {
+  width: 30%;
+  margin-right: 100px;
+}
+.product-detail .product-detail-content .left .product-img {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+.product-detail .product-detail-content .left .product-img img {
+  width: 80%;
+}
+.product-detail .product-detail-content .right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.product-detail .product-detail-content .right .product-info h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.product-detail .product-detail-content .right .product-info h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+.product-detail .product-detail-content .right .product-size h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1ED90E;
+  margin: 17px 0;
+}
+.product-detail .product-detail-content .right .product-size button {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1E1D1D;
+  background-color: #CCCCCC;
+  border: none;
+  padding: 10px;
+  margin-right: 17px;
+}
+.product-detail .product-detail-content .right .product-price h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #FC0303;
+  margin: 20px 0;
+}
+.product-detail .product-detail-content .right .product-cart {
+  display: flex;
+  flex-direction: column;
+}
+.product-detail .product-detail-content .right .product-cart .count .plus {
+  font-size: 30px;
+  color: #FFFCFC;
+  background: linear-gradient(#6181F3 100%, #7C97F5 100%);
+  border: none;
+  padding: 1px 15px;
+}
+.product-detail .product-detail-content .right .product-cart .count span {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 15px;
+}
+.product-detail .product-detail-content .right .product-cart .cart button {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  background: linear-gradient(to right, #D017EE, #3E20F8);
+  padding: 13px 36px;
+  margin-top: 7px;
+  border: none;
+}
+
 .related-product {
   padding: 80px 0;
 }
