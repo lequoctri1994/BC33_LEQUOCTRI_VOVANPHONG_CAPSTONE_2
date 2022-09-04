@@ -1,117 +1,152 @@
 .register {
-    background-color: $bg-color-c4;
-    .container {
-        .register-title {
-            h3 {
-                text-align: center;
-                font-size: $fs-c5;
-                font-weight: $fw-semibold;
-            }
+  background-color: $bg-color-c4;
+  .container {
+    .register-title {
+      h3 {
+        text-align: center;
+        font-size: $fs-c5;
+        font-weight: $fw-semibold;
+        @media only screen and (max-width: 765px) {
+          font-size: $fs-c4;
         }
-        .register-content {
-            .register-form {
-                display: flex;
-                justify-content: space-around;
-                .register-form-left {
-                    width: 40%;
-                    .register-form-left-email {
-                        input {
-                            @include registerInput();
-                            padding: 15px 0;
-                            border-bottom: 5px solid $bg-color-c3;
-                            width: 100%;
-                            &:focus {
-                                outline: none;
-                              }
-                            
-                        }
-                    }
-                    .register-form-left-password {
-                        input {
-                            @include registerInput();
-                            padding: 15px 0;
-                            border-bottom: 5px solid $bg-color-c3;
-                            width: 100%;
-
-                            &:focus {
-                                outline: none;
-                              }
-                        }
-                    }
-                    .register-form-left-passwordConfirm {
-                        input {
-                            @include registerInput();
-                            padding: 15px 0;
-                            border-bottom: 5px solid $bg-color-c3;
-                            width: 100%;
-
-                            &:focus {
-                                outline: none;
-                              }
-                        }
-                    }
-                }
-                .register-form-right {
-                    width: 40%;
-                    .register-form-right-name {
-                        input {
-                            @include registerInput();
-                            padding: 15px 0;
-                            border-bottom: 5px solid $bg-color-c3;
-                            width: 100%;
-
-                            &:focus {
-                                outline: none;
-                              }
-                        }
-                    }
-                    .register-form-right-phone {
-                        input {
-                            @include registerInput();
-                            padding: 15px 0;
-                            border-bottom: 5px solid $bg-color-c3;
-                            width: 100%;
-
-                            &:focus {
-                                outline: none;
-                              }
-                        }
-                    }
-                    .register-form-right-gender {
-                        display: flex;
-                        justify-content: space-between;
-                        @include registerInput();
-                        padding-top: 47px;
-                        align-items: center;
-                        .title {
-                            span {
-    
-                            }
-                        }
-                        .radio {
-                            display: flex;
-                            justify-content: space-between;
-                            width: 50%;
-                            input {
-                                @include registerInput();
-                            }
-                        }
-                    }
-                        .button {
-                            width: 50%;
-                            padding: 30px 0;
-                            button {
-                            width: 100%;
-                            padding: 7px 0;
-                            background-color: $bg-color-c3;
-                            border: none;
-                            color: $text-color-c3;
-                            }
-                        }
-                    
-                }
-            }
-            
-        }
+      }
     }
+    .register-content {
+      .register-form {
+        display: flex;
+        justify-content: space-around;
+        .register-form-left {
+          width: 40%;
+          .register-form-left-email {
+            input {
+              @include registerInput();
+              padding: 15px 0;
+              border-bottom: 5px solid $bg-color-c3;
+              width: 100%;
+              &:focus {
+                outline: none;
+              }
+              @media only screen and (max-width: 765px) {
+                padding: 10px 0;
+                font-size: $fs-c2;
+                border-bottom: 3px solid $bg-color-c3;
+              }
+            }
+          }
+          .register-form-left-password {
+            input {
+              @include registerInput();
+              padding: 15px 0;
+              border-bottom: 5px solid $bg-color-c3;
+              width: 100%;
+
+              &:focus {
+                outline: none;
+              }
+              @media only screen and (max-width: 765px) {
+                padding: 10px 0;
+                font-size: $fs-c2;
+                border-bottom: 3px solid $bg-color-c3;
+              }
+            }
+          }
+          .register-form-left-passwordConfirm {
+            input {
+              @include registerInput();
+              padding: 15px 0;
+              border-bottom: 5px solid $bg-color-c3;
+              width: 100%;
+
+              &:focus {
+                outline: none;
+              }
+              @media only screen and (max-width: 765px) {
+                padding: 10px 0;
+                font-size: $fs-c2;
+                border-bottom: 3px solid $bg-color-c3;
+              }
+            }
+          }
+        }
+        .register-form-right {
+          width: 40%;
+          .register-form-right-name {
+            input {
+              @include registerInput();
+              padding: 15px 0;
+              border-bottom: 5px solid $bg-color-c3;
+              width: 100%;
+
+              &:focus {
+                outline: none;
+              }
+              @media only screen and (max-width: 765px) {
+                padding: 10px 0;
+                font-size: $fs-c2;
+                border-bottom: 3px solid $bg-color-c3;
+              }
+            }
+          }
+          .register-form-right-phone {
+            input {
+              @include registerInput();
+              padding: 15px 0;
+              border-bottom: 5px solid $bg-color-c3;
+              width: 100%;
+
+              &:focus {
+                outline: none;
+              }
+              @media only screen and (max-width: 765px) {
+                padding: 10px 0;
+                font-size: $fs-c2;
+                border-bottom: 3px solid $bg-color-c3;
+              }
+            }
+          }
+          .register-form-right-gender {
+            display: flex;
+            justify-content: space-between;
+            font-size: $fs-c4;
+            font-weight: $fw-semibold;
+            color: $text-color-c0;
+            border: $bd-c0;
+            padding-top: 47px;
+            align-items: center;
+            @media only screen and(max-width:765px) {
+              padding-top: 33px;
+              font-size: $fs-c0;
+            }
+            .title {
+              span {
+                font-size: $fs-c4;
+              }
+            }
+            .radio {
+              display: flex;
+              justify-content: space-between;
+              width: 50%;
+              @media only screen and (max-width:765px) {
+                width: 70%;
+              }
+              input {
+                @include registerInput();
+              }
+            }
+          }
+          .button {
+            width: 50%;
+            padding: 30px 0;
+            button {
+              width: 100%;
+              padding: 7px 0;
+              background-color: $bg-color-c3;
+              border: none;
+              color: $text-color-c3;
+            }
+          }
+        }
+      }
+    }
+  }
 }

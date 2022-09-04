@@ -4,6 +4,12 @@
     display: flex;
     justify-content: space-between;
     padding: 5px 30px 0 30px;
+    @media only screen and (max-width: 765px) {
+      padding: 10px;
+    }
+    @media only screen and (max-width: 1020px) {
+      padding: 10px;
+    }
     .header-top-logo {
       a {
         img {
@@ -17,6 +23,18 @@
       width: 13%;
       color: $text-color-c3;
       align-items: center;
+      @media only screen and (max-width: 765px) {
+        display: none;
+      }
+      @media only screen and (max-width: 1020px) {
+        display: none;
+      }
+      @media only screen and (max-width: 1275px) {
+        width: 25%;
+      }
+      @media only screen and (min-width: 1280px) {
+        width: 20%;
+      }
       .header-top-user-cart {
         a {
           text-decoration: none;
@@ -60,6 +78,9 @@
   .header-navbar {
     background-color: $text-color-c3;
     padding: 5px 30px;
+    @media only screen and (max-width: 765px) {
+      display: none;
+    }
     .header-navbar-nav {
       ul {
         display: flex;
