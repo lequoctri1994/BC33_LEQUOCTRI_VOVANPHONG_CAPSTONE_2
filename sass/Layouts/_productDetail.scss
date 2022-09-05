@@ -25,6 +25,9 @@
                     @media only screen and (max-width:1020px) {
                         width: 125%;
                     }
+                    @media only screen and (max-width:765px) {
+                        width: 100%;
+                    }
                     img  {
                         width: 80%;
                         @media only screen and (max-width:1020px) {
@@ -108,16 +111,14 @@
                             font-size: $fs-c4;
                             font-weight: $fw-regular;
                             color: $text-color-c3;
-                            background: linear-gradient(to right, #D017EE, #3E20F8);
+                            background: linear-gradient(to right, #D017EE 0%, #3E20F8 100%);
                             padding: 13px 36px;
                             margin-top: 7px;
                             border: none;
-                            transition: ease;
-                            transition-duration: 0.5s;
+                            transition: all .5s;
                             &:hover {
-                                background: linear-gradient(to left, #D017EE, #3E20F8);
-                                transition: ease;
-                                transition-duration: 3s;
+                                background: linear-gradient(to right, #3E20F8 0%, #D017EE 100%);
+                               
                             }
                         }
 

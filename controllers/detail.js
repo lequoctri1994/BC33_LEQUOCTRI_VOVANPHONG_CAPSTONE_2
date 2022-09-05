@@ -41,7 +41,6 @@ function renderDetail (arrProduct) {
     for (var i = 0; i < 6; i++) {
         var pr = arrProduct[i];
         if (pr.id == detailId) {
-            JSON.parse(pr.size);
     var html = '';
     html += `
     <div class=left>

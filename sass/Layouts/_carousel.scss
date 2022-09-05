@@ -7,6 +7,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media only screen and (max-width: 765px) {
+            flex-direction: column;
+        }
         .img {
             a {
                 img {
@@ -15,6 +18,10 @@
             }
         }
         .info {
+            width: 35%;
+            @media only screen and(max-width:765px) {
+                width: 100%;
+            }
             .content {
                 h2 {
                     font-size: $fs-c6;

@@ -141,8 +141,21 @@
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 765px) {
+  .carousel .container {
+    flex-direction: column;
+  }
+}
 .carousel .container .img a img {
   width: 100%;
+}
+.carousel .container .info {
+  width: 35%;
+}
+@media only screen and (max-width: 765px) {
+  .carousel .container .info {
+    width: 100%;
+  }
 }
 .carousel .container .info .content h2 {
   font-size: 40px;
