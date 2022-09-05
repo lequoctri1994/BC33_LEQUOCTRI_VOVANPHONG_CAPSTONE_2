@@ -52,11 +52,14 @@
                   }
                 
                 .product-img {
-                    display: flex;
-                    justify-content: center;
-                    img {
-                        width: 50%;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            width: 50%;
+                        }
                     }
+                    
                 }
                 .product-info {
                     padding: 20px;

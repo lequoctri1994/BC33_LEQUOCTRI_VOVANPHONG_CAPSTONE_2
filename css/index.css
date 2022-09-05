@@ -234,11 +234,11 @@
     margin-bottom: 20px;
   }
 }
-.product .container .product-content .col-3 .product-img {
+.product .container .product-content .col-3 .product-img a {
   display: flex;
   justify-content: center;
 }
-.product .container .product-content .col-3 .product-img img {
+.product .container .product-content .col-3 .product-img a img {
   width: 50%;
 }
 .product .container .product-content .col-3 .product-info {

@@ -19,6 +19,7 @@
                     background-color: $bg-color-c1;
                     display: flex;
                     justify-content: center;
+                    
                     @media only screen and (max-width:1260px) {
                         width: 120%;
                     }
@@ -28,12 +29,17 @@
                     @media only screen and (max-width:765px) {
                         width: 100%;
                     }
-                    img  {
-                        width: 80%;
-                        @media only screen and (max-width:1020px) {
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        img  {
                             width: 80%;
+                            @media only screen and (max-width:1020px) {
+                                width: 80%;
+                            }
                         }
                     }
+                    
                 }
             }
             .right {
