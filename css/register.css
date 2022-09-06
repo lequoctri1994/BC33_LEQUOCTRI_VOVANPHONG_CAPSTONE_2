@@ -158,9 +158,19 @@
   padding: 15px 0;
   border-bottom: 5px solid #AE18E2;
   width: 100%;
+  background-color: #FFFCFC;
 }
 .register .container .register-content .register-form .register-form-left .register-form-left-email input:focus {
   outline: none;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-email input ::-moz-placeholder {
+  background-color: #FFFCFC;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-email input :-ms-input-placeholder {
+  background-color: #FFFCFC;
+}
+.register .container .register-content .register-form .register-form-left .register-form-left-email input ::placeholder {
+  background-color: #FFFCFC;
 }
 @media only screen and (max-width: 765px) {
   .register .container .register-content .register-form .register-form-left .register-form-left-email input {
@@ -177,6 +187,7 @@
   padding: 15px 0;
   border-bottom: 5px solid #AE18E2;
   width: 100%;
+  background-color: #FFFCFC;
 }
 .register .container .register-content .register-form .register-form-left .register-form-left-password input:focus {
   outline: none;
@@ -196,6 +207,7 @@
   padding: 15px 0;
   border-bottom: 5px solid #AE18E2;
   width: 100%;
+  background-color: #FFFCFC;
 }
 .register .container .register-content .register-form .register-form-left .register-form-left-passwordConfirm input:focus {
   outline: none;
@@ -218,6 +230,7 @@
   padding: 15px 0;
   border-bottom: 5px solid #AE18E2;
   width: 100%;
+  background-color: #FFFCFC;
 }
 .register .container .register-content .register-form .register-form-right .register-form-right-name input:focus {
   outline: none;
@@ -237,6 +250,7 @@
   padding: 15px 0;
   border-bottom: 5px solid #AE18E2;
   width: 100%;
+  background-color: #FFFCFC;
 }
 .register .container .register-content .register-form .register-form-right .register-form-right-phone input:focus {
   outline: none;

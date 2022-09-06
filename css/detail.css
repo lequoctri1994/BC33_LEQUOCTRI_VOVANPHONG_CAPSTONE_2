@@ -249,14 +249,15 @@
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
-  background: linear-gradient(to right, #D017EE 0%, #3E20F8 100%);
+  background-image: linear-gradient(to right, #D017EE 0%, #3E20F8 51%, #D017EE 100%);
+  background-size: 200%;
   padding: 13px 36px;
   margin-top: 7px;
   border: none;
   transition: all 0.5s;
 }
 .product-detail .product-detail-content .right .product-cart .cart button:hover {
-  background: linear-gradient(to right, #3E20F8 0%, #D017EE 100%);
+  background-position: right center;
 }
 
 .related-product {

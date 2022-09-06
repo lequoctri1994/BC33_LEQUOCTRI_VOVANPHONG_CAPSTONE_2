@@ -57,8 +57,8 @@ function renderProduct(arrProduct) {
 
             <div class="product-img">
             <a href="./detail.html?productid=${pr.id}">
-       <img src="${pr.image}" alt="product"/>
-       </a>
+            <img src="${pr.image}" alt="product"/>
+            </a>
             </div>
 
             <div class="product-info">

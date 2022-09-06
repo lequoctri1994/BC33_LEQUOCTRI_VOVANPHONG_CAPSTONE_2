@@ -23,8 +23,12 @@
               padding: 15px 0;
               border-bottom: 5px solid $bg-color-c3;
               width: 100%;
+              background-color: $bg-color-c4;
               &:focus {
                 outline: none;
+              }
+              ::placeholder {
+                background-color: $bg-color-c4;
               }
               @media only screen and (max-width: 765px) {
                 padding: 10px 0;
@@ -39,7 +43,7 @@
               padding: 15px 0;
               border-bottom: 5px solid $bg-color-c3;
               width: 100%;
-
+              background-color: $bg-color-c4;
               &:focus {
                 outline: none;
               }
@@ -56,7 +60,7 @@
               padding: 15px 0;
               border-bottom: 5px solid $bg-color-c3;
               width: 100%;
-
+              background-color: $bg-color-c4;
               &:focus {
                 outline: none;
               }
@@ -76,7 +80,7 @@
               padding: 15px 0;
               border-bottom: 5px solid $bg-color-c3;
               width: 100%;
-
+              background-color: $bg-color-c4;
               &:focus {
                 outline: none;
               }
@@ -93,7 +97,7 @@
               padding: 15px 0;
               border-bottom: 5px solid $bg-color-c3;
               width: 100%;
-
+              background-color: $bg-color-c4;
               &:focus {
                 outline: none;
               }
